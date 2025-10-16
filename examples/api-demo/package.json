@@ -1,0 +1,19 @@
+{
+  "name": "google-api-demo",
+  "version": "1.0.0",
+  "description": "Google API demonstration example",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "google",
+    "api",
+    "workshop"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "googleapis": "^126.0.0"
+  }
+}
