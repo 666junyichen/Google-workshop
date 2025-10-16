@@ -17,7 +17,7 @@ function HELLO_WORKSHOP(name) {
  * This function can be run from the script editor
  */
 function testFunction() {
-  var message = HELLO_WORKSHOP("Participant");
+  const message = HELLO_WORKSHOP("Participant");
   Logger.log(message);
   
   // You can also show an alert in the spreadsheet
@@ -28,7 +28,7 @@ function testFunction() {
  * Creates a custom menu when the spreadsheet opens
  */
 function onOpen() {
-  var ui = SpreadsheetApp.getUi();
+  const ui = SpreadsheetApp.getUi();
   ui.createMenu('Workshop Tools')
       .addItem('Say Hello', 'testFunction')
       .addToUi();
